@@ -6,7 +6,7 @@ from time import sleep
 
 pyautogui.FAILSAFE = False
 
-# 🔥 NOVA FUNÇÃO (imagem)
+#  NOVA FUNÇÃO 
 def clicar_e_preencher(imagem, valor):
     campo = pyautogui.locateCenterOnScreen(imagem, confidence=0.8)
     
@@ -70,7 +70,7 @@ for i, linha in enumerate(sheet_produtos.iter_rows(min_row=2, values_only=True),
 
     print(f"\n📦 [{i}/{total}] Cadastrando: {nome_produto}")
 
-    # 🔥 NOVO (imagem)
+    #  NOVO 
     clicar_e_preencher('campo_nome.png', nome_produto)
 
     # Descrição (ainda com coordenada)
