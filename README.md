@@ -9,7 +9,7 @@ Local: `automacao_planilha/`
 Descrição: Lê uma planilha Excel e preenche um formulário automaticamente em um site.  
 Tecnologias: PyAutoGUI, OpenPyXL, Pyperclip.
 
-### 2️⃣ Automação de WhatsApp (em breve)
+### 2️⃣ Automação de WhatsApp (em breve)...
 Local: `automacao_whatsapp/`  
 Descrição: Envio automatizado de mensagens.
 
